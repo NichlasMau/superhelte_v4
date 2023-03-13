@@ -20,7 +20,7 @@ public class SuperheroRepository implements Irepository {
     private final String db_username = "root";
 
 
-    private final String db_password = "!Wzy92Eft123";
+    private final String db_password = "root";
 
 
     public List<Superhero> getAllSuperheros() {

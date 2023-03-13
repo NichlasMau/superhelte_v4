@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class SuperheroRepository {
+public class SuperheroRepository implements Irepository {
 
 
     private final String db_url = "jdbc:mysql://localhost:3306/superpower_hero_city";
